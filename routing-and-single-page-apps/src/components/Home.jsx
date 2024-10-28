@@ -7,10 +7,8 @@ const Home = () => {
       <h1>Comic Book Library Project</h1>
       <div id="home-container">
         <p>
-          Here’s a more concise filler text that captures the essentials for the
-          Home Page: Comic Book Library Project Welcome to your Comic Book
-          Library project! This assignment will help you set up basic routing in
-          a React app. You'll create a few pages: Home, Browse Characters,
+          Welcome to the Comic Book Library project! This assignment will detail set
+          up basic routing in a React app. in a few pages I created: Home, Browse Characters,
           Character Details, and Comics, using React Router.
         </p>
         <div id="list-container">
