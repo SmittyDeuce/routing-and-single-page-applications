@@ -1,10 +1,9 @@
-/* General Comic Style */
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); /* Comic-style font */
 
 html, body {
-    height: 100%; /* Ensure the body takes up the full height */
-    margin: 0; /* Reset margin */
-    background-color: #ffffff; /* Set the background color to white */
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;*/
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 h1 {
     text-align: center;
     font-size: 48px;
-    color: #c70000; /* Marvel Red */
+    color: #c70000;
     padding: 20px;
     text-shadow: 3px 3px 0 #000, 6px 6px 0 #f4f4f9;
 }
@@ -22,7 +21,7 @@ h1 {
 h3 {
     text-align: center;
     font-size: 36px;
-    color: #0a74da; /* Spider-Man Blue */
+    color: #0a74da;
     text-shadow: 2px 2px 0 #000;
     margin-top: 20px;
 }
@@ -34,32 +33,32 @@ p {
     color: #000;
 }
 
-/* Container Styling */
+
 #main-container {
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
-    background-color: white; /* Change this to white for testing */
+    background-color: white;
 }
 
 #home-container {
-    border: solid 12px #c70000; /* Marvel Red */
+    border: solid 12px #c70000;
     border-radius: 20px;
     padding: 20px;
-    background-color: #fefefe; /* Kept as is */
+    background-color: #fefefe;
     box-shadow: 8px 8px 0px #333;
 }
 
 #list-container {
-    border: solid 10px #0a74da; /* Spider-Man Blue */
+    border: solid 10px #0a74da;
     border-radius: 30px;
     padding: 20px;
     margin: 20px;
-    background-color: #f4f4f9; /* Kept as is */
+    background-color: #f4f4f9;
     box-shadow: 6px 6px 0px #333;
 }
 
-/* List Styling */
+
 ol li, ul li {
     padding: 12px;
     font-size: 22px;
@@ -70,7 +69,7 @@ ol li, ul li {
 }
 
 ol li::before, ul li::before {
-    content: '⚡'; /* Adds a comic icon */
+    content: '⚡';
     color: #c70000;
     margin-right: 8px;
     font-size: 24px;
